@@ -106,7 +106,7 @@ class Inventory:
 
         #This is net profit which is (Total Units Sold x Selling Price) - (Total Units Manufactured x Manufacturing Cost)
         net = ((total_sold)*prprice)-(((prmprod*12)+prstock)*prmcost)
-        print('Net Profit: ',net)
+        print('Net Profit: $',str(net))
 
 Inventory.var()
 Inventory.estimate()
